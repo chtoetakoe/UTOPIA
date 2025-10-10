@@ -19,7 +19,7 @@
 
 ## 🎯 Team Roles & Responsibilities
 
-### **Tech Lead:** [Name]
+### **Tech Lead:** [ Aleksi Tkebuchava, Saba Morchilashvili ]
 **Responsibilities:**
 - Oversee technical architecture and technology decisions  
 - Manage code quality and review pull requests  
@@ -27,11 +27,9 @@
 - Ensure MVP meets technical requirements  
 - Lead technical troubleshooting  
 
-**Backup:** [Name]
-
 ---
 
-### **Discovery Lead:** [Name]
+### **Discovery Lead:** [ Ani Kelenjeridze, Teona Berozashvili ]
 **Responsibilities:**
 - Manage customer discovery process and user research  
 - Coordinate interview scheduling and execution  
@@ -39,11 +37,9 @@
 - Maintain interview logs and research documentation  
 - Ensure team stays customer-focused  
 
-**Backup:** [Name]
-
 ---
 
-### **Program Lead:** [Name]
+### **Program Lead:** [ Teona Berozashvili, Ani Kelenjeridze ]
 **Responsibilities:**
 - Track deadlines and deliverables  
 - Coordinate team meetings and maintain agendas  
@@ -51,9 +47,8 @@
 - Ensure documentation is up to date  
 - Communicate with instructor as needed  
 
-**Backup:** [Name]  
-
-> 💡 *Roles can rotate mid-semester if the team agrees.*
+ 
+ > 💡 *Roles can rotate mid-semester if the team agrees.*
 
 ---
 
@@ -109,7 +104,7 @@
 
 ---
 
-## 🧱 Work Expectations
+## Work Expectations
 
 **Weekly Contribution:** ~[X] hours per member  
 
@@ -184,4 +179,5 @@ By signing, we commit to:
 
 **Last Updated:** [Date]  
 **Stored at:** `/00-foundation/team-contract.md`
+
 

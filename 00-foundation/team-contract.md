@@ -59,7 +59,7 @@
 
 ## ⚖️ Decision-Making Process
 
-### Primary Method: [Choose One]
+### Primary Method: 
 
 **Option A: Consensus** – Everyone must agree before moving forward  
 > ⏳ If no consensus within 45 minutes → escalate to vote
@@ -184,3 +184,4 @@ By signing, we commit to:
 
 **Last Updated:** [Date]  
 **Stored at:** `/00-foundation/team-contract.md`
+

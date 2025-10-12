@@ -12,7 +12,7 @@
 |------|--------|-------------------|----------------|
 | Teona Berozashvili | berozashvili.teona@kiu.edu.ge | PM (4), Backend (3), Docs (4) | — |
 | Ani Kelenjeridze | kelenjeridze.ani@kiu.edu.ge | Eng (4), PM (3), Doc (4) | — |
-| Saba Morchilashvili | morchilashvili.saba@kiu.edu.ge | — | — |
+| Saba Morchilashvili | morchilashvili.saba@kiu.edu.ge | Backend (4), Testing (4), Docs (3), | — |
 | Aleksi Tkebuchava | tkebuchava.aleksi@kiu.edu.ge | — | — |
 
 ---
@@ -179,5 +179,6 @@ By signing, we commit to:
 
 **Last Updated:** [Date]  
 **Stored at:** `/00-foundation/team-contract.md`
+
 
 

@@ -13,7 +13,6 @@
 | **Location/Method** | Zoom Call |
 | **Interviewer** | Ani Kelenjeridze |
 | **Interviewee ID** | Student-Beta |
-| **Recording** | Yes |
 
 ---
 

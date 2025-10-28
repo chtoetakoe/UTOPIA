@@ -13,7 +13,6 @@
 | **Location/Method** | In-person at KIU Library |
 | **Interviewer** | Teona Berozashvili |
 | **Interviewee ID** | Student-Alpha |
-| **Recording** | Yes |
 
 ---
 

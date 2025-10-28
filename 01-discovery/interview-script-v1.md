@@ -136,7 +136,7 @@ Before starting:
 “Great! What’s the best way to reach you?”
 
 - Email: [_________]
-- Telegram/WhatsApp: [_________]
+- Instagram/Facebook: [_________]
 
 **Final Thank You:**  
 “Thanks again! I really appreciate your time and honesty — hope you have a lighter week ahead.”

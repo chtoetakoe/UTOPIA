@@ -163,9 +163,9 @@ By signing, we commit to:
 | Member | Signature | Date |
 |---------|------------|------|
 | Teona Berozashvili | T.Berozashvili | 10/10/2025  |
-| Ani Kelenjeridze |  |  |
-| Saba Morchilashvili |  |  |
-| Aleksi Tkebuchava |  |  |
+| Ani Kelenjeridze | A.Kelenjeridze | 10/10/2025 |
+| Saba Morchilashvili | S.Morchilashvili | 10/10/2025 |
+| Aleksi Tkebuchava | A.Tkebuchava | 10/10/2025 |
 
 ---
 
@@ -179,6 +179,7 @@ By signing, we commit to:
 
 **Last Updated:** [Date]  
 **Stored at:** `/00-foundation/team-contract.md`
+
 
 
 

@@ -1,26 +1,36 @@
-# Experiment 01 Results: Smoke Test Landing Page
+# Experiment 01 Results: Google Form Smoke Test
 
-**Experiment:** 01 - Landing Page Waitlist  
-**Date Range:** Nov 18 - Nov 24, 2025
+**Experiment:** 01 - Anonymous Support Waitlist
+**Date:** [Insert Today's Date]
+**Status:** Complete
 
 ## Quick Summary
-**Hypothesis:** We believe KIU CS students waste time finding spots and will sign up for real-time updates.  
-**Result:** ✅ VALIDATED  
-**Key Finding:** 18.5% conversion rate on mobile devices confirms strong demand.
+**Hypothesis:** We believed KIU students experiencing academic stress would sign up for an anonymous support tool.
+**Result:** ✅ **STRONGLY VALIDATED**
+**Key Finding:** 60% of survey respondents provided their email for early access, identifying "Relatability Feed" as the most desired feature.
 
 ## Execution Log
-- **Nov 18:** Built Carrd landing page. Setup Google Analytics. Posted to "KIU CS" WhatsApp group.
-- **Nov 19:** 45 visitors, 5 signups. Traffic spiked at 10 AM (between classes).
-- **Nov 20:** Posted QR code flyer in the library lobby.
-- **Nov 21:** 30 visitors, 8 signups. High conversion from QR code users.
-- **Nov 24:** Closed experiment.
+- **Setup:** Created Google Form survey titled "UTOPIA: KIU Student Well-Being & Stress Study."
+- **Distribution:** Shared link in KIU student WhatsApp groups and via Direct Messages to classmates.
+- **Duration:** Experiment ran for 48 hours.
 
 ## Data Collected
 | Metric | Count |
 |--------|-------|
-| Total Visitors | 142 |
-| Total Signups | 26 |
-| Conversion Rate | 18.3% |
+| Total Survey Responses | 30 |
+| "Yes" to Early Access | 22 (73.3%) |
+| **Total Emails Collected** | **18** |
+| **Conversion Rate** | **60%** (18 emails / 30 respondents) |
 
-**Qualitative Feedback:**
-> "I literally just walked up 3 flights of stairs to find no seats. I need this." — Student ID #4
+## Qualitative Insights
+1.  **High Stress Levels:** 66.7% of students feel overwhelmed either "Every single day" (30%) or "2-3 times a week" (36.7%).
+2.  **Feature Preference:** The "Relatability Feed" (seeing others are stressed) was the top voted feature (50%), beating out "Anonymous Venting" (33.3%).
+3.  **Platform:** 56.7% prefer a Mobile Website over a Native App.
+
+**Evidence:**
+![suggestion](<suggestion.png>)
+![platform](<platform.png>)
+![mental well being](<mental_well_being.png>)
+![course](<course.png>)
+![stress](<stress.png>)
+![mails](<mails.png>)

@@ -1,53 +1,75 @@
 # 12-Month Financial Model
 
 **Team:** UTOPIA
-
 **Date:** December 11, 2025
 
 ---
 
-## 📊 Financial Model Automation
+## 📊 Google Sheets Link — Base Case
 
-Because we cannot host a live spreadsheet link here, we have generated a **Google Apps Script** that builds our custom financial model.
+👉 **[UTOPIA Financial Model – Base Case](https://docs.google.com/spreadsheets/d/1Z6AfMsQ6ijfFPFRYgOA6-0aYzgkJHOnZUJmodjpz2S0/edit?gid=0#gid=0)**
 
-### Instructions to View Model:
+---
 
-1. Open a new [Google Sheet](https://docs.google.com/spreadsheets/d/1Z6AfMsQ6ijfFPFRYgOA6-0aYzgkJHOnZUJmodjpz2S0/edit?usp=sharing).
-2. Go to **Extensions > Apps Script**.
-3. Paste the code below and run `createFinancialModel`.
-4. The sheet will populate with UTOPIA's specific assumptions ($4.99 pricing, $8 CAC, etc.).
+## 📈 Model Summary (Based on Your Inputs)
 
-### 🖥️ The Script
+| Metric            | Value                                              |
+| ----------------- | -------------------------------------------------- |
+| **Starting MRR**  | **$149.50** _(50 users × $2.99)_                   |
+| **Month 12 MRR**  | **$309.38** _(from FinModel AI projection)_        |
+| **CAC**           | **$8.00**                                          |
+| **LTV**           | **$37.38** _(ARPU $2.99 ÷ churn 8%)_               |
+| **LTV:CAC Ratio** | **4.67 : 1** _(Healthy > 3:1)_                     |
+| **Cash Runway**   | **3.1 months** _(based on $300 ads + $30 hosting)_ |
+| **Break-Even**    | **Not within 12 months**                           |
 
-```javascript
-function createFinancialModel() {
-  var ss = SpreadsheetApp.getActiveSpreadsheet();
-  var sheetAssump =
-    ss.getSheetByName("Assumptions") || ss.insertSheet("Assumptions");
-  sheetAssump.clear();
+---
 
-  // UTOPIA CUSTOM ASSUMPTIONS
-  var assumpData = [
-    ["Category", "Assumption", "Value", "Notes"],
-    ["PRICING", "Monthly Sub Price ($)", 4.99, "Premium Tier"],
-    ["GROWTH", "Starting Users", 50, "Waitlist + Launch"],
-    ["GROWTH", "Monthly Growth Rate", 0.15, "Viral Growth"],
-    ["CHURN", "Monthly Churn Rate", 0.08, "Semester Churn"],
-    ["COSTS", "Hosting (Fixed)", 30, "Render/Vercel"],
-    ["COSTS", "COGS per User", 0.1, "DB Storage"],
-    ["COSTS", "Payment Fee", 0.03, "Stripe"],
-    ["MARKETING", "Monthly Ad Spend", 300, "IG Ads"],
-    ["MARKETING", "Content Creation", 100, "Flyers/Events"],
-    ["TEAM", "Dev Salaries", 0, "Founder Equity"],
-    ["FUNDING", "Starting Cash", 1000, "Founder Capital"],
-  ];
+## 🧪 Model Versions (Create 3 copies and paste URLs)
 
-  sheetAssump.getRange(1, 1, assumpData.length, 4).setValues(assumpData);
-  sheetAssump.getRange("A1:D1").setFontWeight("bold").setBackground("#d9ead3");
+### 🔵 Base Case – 8% MoM Growth
 
-  // Creates Revenue, Cost, and P&L tabs automatically (Standard Logic applied)
-  SpreadsheetApp.getUi().alert(
-    "UTOPIA Model Generated! Please see Assumptions tab."
-  );
-}
-```
+👉 **[https://docs.google.com/spreadsheets/d/YOUR_BASE_SHEET_ID_HERE](https://docs.google.com/spreadsheets/d/YOUR_BASE_SHEET_ID_HERE)**
+
+### 🔴 Pessimistic – 4% MoM Growth, 5% churn
+
+👉 **[https://docs.google.com/spreadsheets/d/YOUR_PESSIMISTIC_SHEET_ID_HERE](https://docs.google.com/spreadsheets/d/YOUR_PESSIMISTIC_SHEET_ID_HERE)**
+
+### 🟢 Optimistic – 15% MoM Growth, 0% churn
+
+👉 **[https://docs.google.com/spreadsheets/d/YOUR_OPTIMISTIC_SHEET_ID_HERE](https://docs.google.com/spreadsheets/d/YOUR_OPTIMISTIC_SHEET_ID_HERE)**
+
+---
+
+## 📝 Notes & Assumptions
+
+### Product Economics
+
+- Subscription price: **$2.99/month**
+- No annual discount
+- No AI COGS in Year 1
+- Payment Fee: **5%**
+- Hosting cost: **$0–30 depending on usage**
+
+### Growth
+
+- Starting users: **50**
+- Monthly growth: **8%**
+- No churn impact in first 12 months (realistic for a new app)
+
+### Marketing
+
+- Ad Spend: **$300/month**
+- CAC achieved: **≈ $8**
+
+### Cash Flow
+
+- Starting cash: **$1000**
+- Burn rate: **~$320/month**
+- Cash-out month: Month **4**
+  _(expected for early-stage pre-revenue apps)_
+
+### Model Behavior
+
+- Automatically calculates MRR, CAC, LTV, runway, break-even
+- Good for investor presentations and unit economic validation

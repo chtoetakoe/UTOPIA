@@ -96,7 +96,7 @@
 
 ## PART 3: PRODUCT / DEMO [2:30–4:00]
 
-**Speaker:** Ani
+**Speaker:** Aleksi
 
 ---
 
@@ -146,7 +146,7 @@
 
 ## PART 4: MARKET & BUSINESS MODEL [4:00–5:15]
 
-**Speaker:** Saba
+**Speaker:** Ani
 
 ---
 
@@ -183,7 +183,7 @@
 
 ## PART 5: TRACTION & COMPETITION [5:15–6:15]
 
-**Speaker:** Aleksi
+**Speaker:** Saba
 
 ---
 
@@ -224,7 +224,7 @@
 
 ## PART 6: TEAM & ASK [6:15–7:00]
 
-**Speaker:** Teona
+**Speaker:** 
 
 ---
 

@@ -1,100 +1,124 @@
-# UTOPIA – Student Well-Being Platform
+# UTOPIA – Anonymous Peer Support Platform for Students
 
-### An emotional support ecosystem for university students under academic pressure.
+### A safe, judgment-free space for university students to share stress and feel less alone.
 
 ---
 
 ## 💡 Project Overview
 
-**UTOPIA** is a student-centered initiative born out of the semester-long **Product Development for Software Engineers** course at KIU.
-Our mission: **help students overcome isolation, anxiety, and burnout** by creating a safe, peer-driven support space within their everyday campus life.
+**UTOPIA** is an anonymous peer-support web application built as part of the semester-long
+**Product Development for Software Engineers** course at **Kutaisi International University (KIU)**.
+
+The platform addresses emotional isolation, academic stress, and stigma by allowing students to **share struggles anonymously**, **read similar experiences**, and **receive simple emotional validation from peers** — without accounts, profiles, or judgment.
+
+UTOPIA is intentionally lightweight, non-therapeutic, and designed for moments of quiet stress, especially during exams.
 
 ---
 
-## 🎯 The Validated Problem
+## 🎯 The Problem We Solved
 
-> KIU students, especially those in demanding programs like Computer Science, experience chronic stress and loneliness due to **fear of failure** and **lack of safe, informal peer connections**.
-> This emotional isolation leads to **unhealthy coping**, decreased motivation, and eventual burnout.
+Through user research, we identified a consistent pattern among KIU students:
 
----
+> Students experiencing academic stress often avoid talking about it due to **fear of judgment**,
+> leading to emotional isolation, unhealthy coping behaviors, and burnout.
 
-## 🧩 Discovery Phase Highlights
-
-* **10 user interviews** conducted (Oct 18 – 23 2025)
-* **35 + verbatim quotes** analyzed
-* **6 major clusters** synthesized through affinity mapping
-* **Top 3 pain patterns** validated via *Five Whys* analysis
-
-| Rank | Pattern                         | Root Cause                                                        |
-| :--- | :------------------------------ | :---------------------------------------------------------------- |
-| 🥇 1 | **Fear of Judgment / Stigma**   | Students feel they must appear competent; fear being seen as weak |
-| 🥈 2 | **Loneliness / Isolation**      | No safe social space for sharing emotions                         |
-| 🥉 3 | **Unhealthy Coping Mechanisms** | Overwork, avoidance, or exhaustion replace emotional regulation   |
+Existing solutions felt either too formal (therapy-oriented) or too public (social media), leaving students without a safe, informal channel for emotional expression.
 
 ---
 
-## 🔍 Key Insights
+## 🔍 Discovery & Validation Summary
 
-1. Students don’t want “therapy apps” — they want **peer understanding**.
-2. Emotional honesty only surfaces when **judgment disappears**.
-3. Connection and validation are the **core antidotes** to burnout.
+* **10 in-depth interviews** with KIU students (Years 1–3)
+* **35+ verbatim quotes** analyzed
+* **Affinity mapping** and **Five Whys analysis** conducted
+* **Core problem validated** across majors and years
 
----
+### Top Validated Pain Patterns
 
-## 🚀 Next Step: Design Sprint
+| Rank | Pattern                   | Root Cause                              |
+| ---- | ------------------------- | --------------------------------------- |
+| 🥇   | Fear of judgment / stigma | Pressure to appear competent            |
+| 🥈   | Loneliness & isolation    | No safe space for emotional sharing     |
+| 🥉   | Unhealthy coping          | Overwork, avoidance, emotional shutdown |
 
-**Goal (Week 5):**
-Prototype a low-friction, anonymous space where students can:
-
-* Share stress moments safely
-* Read peers’ experiences
-* Feel seen and supported instantly
-
-**Upcoming Deliverables**
-
-* Idea generation (**10 + concepts**)
-* Prototype V1 (low-fidelity)
-* Early feedback testing
+**Key Insight:**
+Students don’t want advice or therapy — they want **to feel understood**.
 
 ---
 
-## 👥 Team UTOPIA
+## 🧠 Product Solution (MVP)
 
-| Role                              | Name                    |
-| :-------------------------------- | :---------------------- |
-| Discovery Lead & Writer           | **Teona Berozashvili**  |
-| Analysis & Backend Support        | **Aleksi Tkebuchava**   |
-| Research & Interview Coordination | **Ani Kelenjeridze**    |
-| Documentation & Miro Coordinator  | **Saba Morchilashvili** |
+UTOPIA provides:
+
+* Anonymous post creation (no login, no identity)
+* A calm feed of peer experiences
+* One-click emotional reactions for validation
+* A judgment-free, low-friction user experience
+
+The MVP was built using **Lovable**, focusing on speed, simplicity, and emotional safety.
 
 ---
 
-## 🗂 Repository Overview
+## 🎬 Demo & Delivery
+
+* 📹 **Pre-recorded demo video** showcasing the full user flow
+* 🖥️ Responsive UI (desktop & mobile)
+* 🎨 Calm visual design (light purple & white palette)
+
+All demo materials and scripts are located in the delivery and fundraising folders.
+
+---
+
+## 🗂 Final Repository Structure
 
 ```
-UTOPIA/
-├── 00-foundation/          → Team charter & ICP
-├── 01-discovery/
-│   ├── interview-logs/     → 10 detailed interview notes
-│   ├── outreach/           → Interview tracker
-│   └── synthesis/          → Affinity map, patterns & problem statement
-├── 02-analytics/           → NSM, Event Schema & Analytics Plan (MVP)
-├── milestones/             → Week-04 milestone report
+product-capstone-2025/
+├── 00-foundation/        → Team contract, ICP, problem framing
+├── 01-discovery/         → Interviews, synthesis, patterns
+├── 02-design/            → Prototypes, wireframes, testing
+├── 03-build/             → MVP artifacts, experiments, analytics
+├── 04-gtm/               → Metrics, financials, traction
+├── 05-fundraising/       → Pitch deck, demo video, one-pager
+├── 06-strategy/          → Roadmap, prioritization framework
+├── 07-team/              → Peer assessments, retrospectives
+├── 08-legal/             → IP & licensing considerations
+├── 09-final/             → Case study, venture packet, portfolio
 └── README.md
 ```
 
 ---
 
-## 🔗 Resources
+## 👥 Team UTOPIA
 
-* 🎨 **Miro Board:** [Affinity Map Board](https://miro.com/app/board/uXjVJ1DMmxI=/?share_link_id=665865061975)
-* 📚 **Course:** Product Development for Software Engineers – KIU 2025
-* 🧑‍🏫 **Instructor:** Zeshan Ahmad
+| Role                       | Name                    |
+| -------------------------- | ----------------------- |
+| Discovery Lead & Writer    | **Teona Berozashvili**  |
+| Research & Interviews      | **Ani Kelenjeridze**    |
+| Analysis & Backend Support | **Aleksi Tkebuchava**   |
+| Backend Support & Synthesis  | **Saba Morchilashvili** |
 
 ---
 
-**Last Updated:** Nov 2 2025  |  **Author:** Teona Berozashvili
-⭐ *Phase 1 – Discovery Complete  |  Next: Design Sprint (Prototyping Week 5)*
+## 📚 Course Information
 
+* **Course:** Product Development for Software Engineers
+* **Institution:** Kutaisi International University
+* **Instructor:** Zeshan Ahmad
+* **Semester:** Fall 2025
 
+---
+
+## 🧭 Project Status
+
+✔ Problem discovered & validated
+✔ MVP designed and built
+✔ Demo recorded
+✔ Pitch deck finalized
+✔ Case study completed
+
+**UTOPIA is a complete, end-to-end product development project.**
+
+---
+
+**Last Updated:** December 2025
 
